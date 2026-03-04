@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-</head>
-<body>
+﻿@extends('layouts.master')
+
+@section('title', 'Liên hệ')
+
+@section('content')
     <h1>Trang Liên Hệ</h1>
-    <p>Đây là trang liên hệ đơn giản.</p>
-</body>
-</html>
+    <p>Liên hệ: hai.nt@example.com</p>
+@endsection
